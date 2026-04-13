@@ -138,7 +138,7 @@ A little history first.
 
 The code itself went through three iterations.
 
-Version one was "quick and dirty": a giant monolithic brittle and fragile script. It worked, but paths and values were hardcoded, a variables were tangled from beginning to end.
+Version one was "quick and dirty": a giant monolithic brittle and fragile script. It worked, but paths and values were hardcoded; variables were tangled from beginning to end.
 
 Version two abstracted much of the core components, but the structure of the Python package still entangled core components with simulation-specific components. This meant that as others wanted certain parts of my HipPy package, I was stuck giving them the whole thing, and this often made them install external libraries that had no relevance to their project.
 
