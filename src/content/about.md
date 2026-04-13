@@ -1,12 +1,13 @@
 ## About Me 
 
-I am an engineer who enjoys applying my mechanical engineering background to biomedical problems.
-I have been in the engineering research field for 10+ years and recently completed my doctorate in Biomedical Engineering.
+Hello.
 
-My research focused on understanding hip fractures in the elderly population. This included developing finite element simulations of complicated systems (e.g. human body models), but also more general techniques (e.g. software development for automation) to enable analysis of large datasets and the data itself (e.g. computational statistics).
+I am an engineer. A mechanical engineer at the beginning, but recently have applied those mechanical engineering principles to biological problems. Thus, a biomechanical engineer is perhaps the most apt description of me.
 
-In my research, I have gained extensive experience developing software pipelines for data processing (Python, R, MATLAB). These tools are often used with Finite Element Analysis for pre-processing, post-processing, or even job submissions.
+At this point, I have been in the biomedical engineering research field for 10+ years and have for 8+ years focused on computational modeling.
 
-My recent personal projects have included developing a lightweight medical visualization GUI based on VTK + QT (C++), developing a lightweight CLI computational study management tool in Rust, and building this front-end using React and JavaScript.
+My Ph.D. research focused on understanding hip fractures in the elderly population. This included developing finite element simulations of complicated systems (e.g. human body models), but also more general techniques (e.g. software development for automation) to enable analysis of large datasets and the data itself (e.g. computational statistics).
 
-In my free time, when I am not working on my personal projects, I enjoy film photography, playing guitar, playing sand volleyball, and hiking.
+While biomechanical engineering is my field, I also enjoy software development. Thus, I often build software tools to enable research at scales that were previously not possible. These range from workflow automation in Python, to statistical modeling packages in R, to visualization tools in Python/C++. My most recent projects include developing a study management command line tool in Rust, and building this website using React and JavaScript.
+
+When I am not working on those engineering activities, I enjoy film photography, playing guitar, playing sand volleyball, and hiking.
