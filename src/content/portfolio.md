@@ -26,3 +26,13 @@ The code itself went through three iterations. The first one was "quick and dirt
 
 By abstracting many similar reusable components, I created a software package that was usable in separate, unrelated projects. Additionally, the separation of concerns created a cleaner update cycle as this `hippy.core` was relatively mature and rarely underwent any updates.
 
+### 3. Object Oriented Programming course using Python
+
+During my doctoral studies, many colleagues asked me to teach a Python course. Instead of teaching strictly a Python Introduction,
+I instead decided to make it an introduction to Object Oriented Programming (OOP) using Python. Most of the researchers already knew MATLAB, so teaching Python would mean just learning new syntax.
+
+After discussing code with many researchers, I have realized that OOP is a different way of thinking about problems; the
+code architecture is often very different. As such, I thought using Python as an introduction to OOP would be both
+teaching a new language as they had desired, but also a new way to architect their own code.
+
+[Link to repository](https://github.com/alexander02468/python-oop-course)
