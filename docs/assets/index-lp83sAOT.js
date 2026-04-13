@@ -36,7 +36,7 @@ In my free time, when I am not working on my personal projects, I enjoy film pho
 ## Technical Proficiencies
 
 - **Programming Languages:** Python, R, C++, Rust, React
-- **Scientific Visualization:** Blender, Paraview, Seaborn
+- **Scientific Visualization:** Blender, Paraview, Seaborn, VTK
 - **Research Methods:** Design of experiments, Sensitivity
 analysis, Hypothesis testing
 - **Numerical Methodologies:** Finite Element Methods (nonlinear
