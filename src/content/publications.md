@@ -64,23 +64,14 @@
 > a fall from standing.*
 > **Clinical Biomechanics**, 106556, 2025
 
-11. AD Praveen, D Jha, **AM Baker**, I Fleps, P Björnsson,
-    LM Ellingsen, T Aspelund, S Sigurdsson, V Gudnason, H Pálsson, D
-    Matchar, F Johannesdottir, SJ Ferguson, B Helgason.
-> *Comparison of the time-dependent discriminatory accuracy of femoral
-> strength and bone mineral density for predicting future hip and major
-> osteoporotic fractures: a 16-year follow-up of the AGES-Reykjavik
-> cohort.*
-> **Osteoporosis International**, 1-10, 2025
-
-12. EK Bliven, A Fung, **AM Baker**, B Helgason, P Guy, PA
+11. EK Bliven, A Fung, **AM Baker**, B Helgason, P Guy, PA
     Cripton.
 > *Can an Intramedullary Nail Be Used for Hip Fracture Prevention in a
 > Sideways Fall Scenario?*
 > **SAE International Journal of Transportation Safety** 12
 > (09-12-02-0013), 131-138, 2024
 
-13. PA Bjornsson, **AM Baker**, I Fleps, Y Pauchard, H
+12. PA Bjornsson, **AM Baker**, I Fleps, Y Pauchard, H
     Palsson, SJ Ferguson, S Sigurdsson, V Gudnason, B Helgason, LM
     Ellingsen.
 > *Fast and robust femur segmentation from computed tomography images
@@ -88,7 +79,7 @@
 > **Computer Methods in Biomechanics and Biomedical Engineering: Imaging
 > & Visualization**, 2023
 
-14. I Fleps, H Pálsson, **AM Baker**, W Enns-Bray, H
+13. I Fleps, H Pálsson, **AM Baker**, W Enns-Bray, H
     Bahaloo, M Danner, NB Singh, WR Taylor, S Sigurdsson, V Gudnason, et
     al.
 
@@ -96,7 +87,7 @@
 > fracture risk than aBMD in the AGES Reykjavik study cohort.*
 > **Bone** 154, 116219, 2022
 
-15. **AM Baker**, Z Hostetler, N Vavalle, R Armiger, R
+14. **AM Baker**, Z Hostetler, N Vavalle, R Armiger, R
     Coates, FS Gayzik.
 
 > *Hierarchical Validation Prevents Over-Fitting of the Neck Material
@@ -104,28 +95,28 @@
 > Scenarios.*
 > **Journal of Biomechanical Engineering** 143 (1), 014505, 2021
 
-16. W Decker, **AM Baker**, X Ye, P Brown, J Stitzel, FS
+15. W Decker, **AM Baker**, X Ye, P Brown, J Stitzel, FS
     Gayzik.
 
 > *Development and multi-scale validation of a finite element football
 > helmet model.*
 > **Annals of Biomedical Engineering** 48 (1), 258-270, 2020
 
-17. CM Weaver, **AM Baker**, ML Davis, AN Miller, JD
+16. CM Weaver, **AM Baker**, ML Davis, AN Miller, JD
     Stitzel.
 
 > *Finite element-based pelvic injury metric creation and validation in
 > lateral impact for a human body model.*
 > **Journal of Biomechanical Engineering** 140 (6), 061008, 2018
 
-18. **AM Baker**, FC Hsu, FS Gayzik.
+17. **AM Baker**, FC Hsu, FS Gayzik.
 
 > *A method to measure predictive ability of an injury risk curve using
 > an observation-adjusted area under the receiver operating
 > characteristic curve.*
 > **Journal of Biomechanics** 72, 23-28, 2018
 
-19. **AM Baker**, DW Wagner, BJ Kiratli, GS Beaupre.
+18. **AM Baker**, DW Wagner, BJ Kiratli, GS Beaupre.
 
 > *Pixel-based DXA-derived structural properties strongly correlate with
 > pQCT measures at the one-third distal femur site.*

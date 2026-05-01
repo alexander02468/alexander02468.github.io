@@ -4,6 +4,9 @@ import {createRoot} from 'react-dom/client'
 import Markdown from 'react-markdown'
 import { FaLinkedin, FaGoogleScholar, FaOrcid } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import ReactMarkdown from "react-markdown";
+
+import remarkGfm from "remark-gfm";
 
 import './App.css'
 
@@ -70,7 +73,14 @@ function App() {
 
     <main id="main">
       <MarkdownSection id="about" file="about.md" />
-      <MarkdownSection id="portfolio" file="portfolio.md" />
+      <PortfolioSection
+  files={[
+    "portfolio_hip_fracture_code.md",
+    "portfolio_actatools.md",
+    "portfolio_critical_velocity.md",
+    "portfolio_hip_fracture_visuals.md",
+  ]}
+/>
       <MarkdownSection id="cv" file="cv.md" />
       <MarkdownSection id="publications" file="publications.md" />
     </main>
@@ -112,6 +122,82 @@ function extractImageStyle(title = "") {
   return match ? parseStyleString(match[1].trim()) : {};
 }
 
+export function PortfolioSection( {files} ){
+  return(
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p> The following items showcase my abilities and expertise. </p>
+    
+    {files.map((file) => (
+      <PortfolioItem key={file} file={file} />
+    ))}
+
+  </section>
+  )
+}
+
+function PortfolioItem({ file }) {
+
+  const raw = markdownFiles[`./content/${file}`];  
+  // load markdown
+  if (!raw) {
+    return <p>Markdown file not found: {file}</p>;
+
+  }
+
+  // parse front matter
+  const { data, content } = parseFrontmatter(raw);
+  const parts = content.split(/\[video:(.*?)\]/g);
+
+
+
+  return (
+
+  // render details/summary/content
+  <details>
+    <summary>
+    <h3> {data.title} </h3>
+    <p> {data.description} </p>
+      
+      </summary>
+      <div className="details-content">
+    
+      {parts.map((part, i) =>
+        i % 2 === 1 ? (
+          <video key={i} controls width="100%">
+            <source src={part.trim()} type="video/mp4" />
+          </video>
+        ) : part ? (
+          <Markdown remarkPlugins={[remarkGfm]}
+            key={i}
+            components={{
+              img: ({ node, ...props }) => {
+                const parsedStyle = extractImageStyle(props.title);
+
+                return (
+                  <img
+                    {...props}
+                    style={{
+                      maxWidth: "100%",
+                      height: "auto",
+                      ...parsedStyle,
+                    }}
+                  />
+                );
+              },
+            }}
+          >
+            {part}
+          </Markdown>
+        ) : null
+      )}
+      </div>
+  </details>
+
+    )
+
+}
+
 export function MarkdownSection({ id, file }) {
   const content = markdownFiles[`./content/${file}`];
   const parts = content.split(/\[video:(.*?)\]/g);
@@ -149,6 +235,23 @@ export function MarkdownSection({ id, file }) {
       )}
     </section>
   );
+}
+
+function parseFrontmatter(raw) {
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  if (!match) {
+    return { data: {}, content: raw };
+  }
+  const [, frontmatter, content] = match;
+  const data = {};
+  frontmatter.split("\n").forEach((line) => {
+    const idx = line.indexOf(":");
+    if (idx === -1) return;
+    const key = line.slice(0, idx).trim();
+    const value = line.slice(idx + 1).trim();
+    data[key] = value;
+  });
+  return { data, content };
 }
 
 export default App
