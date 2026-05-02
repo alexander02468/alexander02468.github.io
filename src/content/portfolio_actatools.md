@@ -25,7 +25,7 @@ version control. Additionally, there is a light-weight orchestration functionali
 study designs. To ease usage, I split functionality into
 two separate tools: ActaStudy and ActaRecords, and also enabled cleaner sepation of concerns.
 
-![Architectural design of ActaStudy](/public/Variations.png "style=width:500px;max-width:100%;height:auto;display:block;margin:1.5rem auto")
+![Architectural design of ActaStudy](Variations.png "style=width:500px;max-width:100%;height:auto;display:block;margin:1.5rem auto")
 *Architectural design and abstraction of a Study in ActaStudy*
 
 During this project, I have been learning how to balance scope versus usefulness versus maintainability, emphasizing clean
