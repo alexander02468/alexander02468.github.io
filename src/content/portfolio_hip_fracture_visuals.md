@@ -9,9 +9,9 @@ open: false
 ---
 
 
-During my doctoral thesis, I built an automated hip fracture prediction pipeline that goes from Computed Tomograpy (CT) scan to simulation to analysis. This process involves many steps; communicating the process efficiently and concisely is important during presentations or teaching.
+During my doctoral thesis, I built an automated hip fracture prediction pipeline that goes from Computed Tomography (CT) scan to simulation to analysis. This process involves many steps; communicating the process efficiently and concisely is important during presentations or teaching.
 
-As such, it is important to use clean and understandble pictures and videos. Often, we work enough with the models and results
+As such, it is important to use clean and understandable pictures and videos. Often, we work enough with the models and results
 that dealing directly with software inputs and outputs is still understandable to us. But to others, the raw data is 
 distracting from the message.
 

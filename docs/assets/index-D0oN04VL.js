@@ -175,7 +175,7 @@ A little history first.
 
 The code itself went through three iterations.
 
-Version one was "quick and dirty": a giant monolithic brittle and fragile script. It worked, but paths and values were hardcoded; variables were tangled from beginning to end.
+Version one was "quick and dirty": a giant monolithic brittle and fragile script. It worked, but paths and values were hard-coded; variables were tangled from beginning to end.
 
 Version two abstracted much of the core components, but the structure of the Python package still entangled core components with simulation-specific components. This meant that as others wanted certain parts of my HipPy package, I was stuck giving them the whole thing, and this often made them install external libraries that had no relevance to their project.
 
@@ -238,9 +238,9 @@ open: false
 ---
 
 
-During my doctoral thesis, I built an automated hip fracture prediction pipeline that goes from Computed Tomograpy (CT) scan to simulation to analysis. This process involves many steps; communicating the process efficiently and concisely is important during presentations or teaching.
+During my doctoral thesis, I built an automated hip fracture prediction pipeline that goes from Computed Tomography (CT) scan to simulation to analysis. This process involves many steps; communicating the process efficiently and concisely is important during presentations or teaching.
 
-As such, it is important to use clean and understandble pictures and videos. Often, we work enough with the models and results
+As such, it is important to use clean and understandable pictures and videos. Often, we work enough with the models and results
 that dealing directly with software inputs and outputs is still understandable to us. But to others, the raw data is 
 distracting from the message.
 
